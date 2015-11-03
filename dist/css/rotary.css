@@ -1,0 +1,62 @@
+/**!
+ * Rotary v0.1.0
+ * Copyright 2015 Mark Rabey <mark@markrabey.com> (http://markrabey.com)
+ * Licensed under the MIT license
+ */
+/**!
+ * Rotary Text
+ */
+.rotary .rotary__text {
+  position: absolute;
+}
+
+/**!
+ * Animations
+ */
+.fade {
+  opacity: 0;
+}
+
+.fade.fade--in.fade--transitioning {
+  -webkit-animation: fade linear 1;
+          animation: fade linear 1;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.fade.fade--out {
+  opacity: 0;
+}
+
+.fade.fade--out.fade--transitioning {
+  -webkit-animation: fade linear 1 reverse;
+          animation: fade linear 1 reverse;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.fade.rotary__text--active {
+  opacity: 1;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "rotary-text",
+  "version": "0.1.0",
+  "homepage": "https://github.com/RenegadeDigital/rotary",
+  "authors": [
+    "Mark Rabey <mark@markrabey.com> (http://markrabey.com)"
+  ],
+  "description": "Simple JavaScript for rotating text.",
+  "keywords": [
+    "javascript",
+    "animation",
+    "text",
+    "rotation"
+  ],
+  "main": [
+    "dist/js/rotary.min.js",
+    "dist/css/rotary.min.css"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ]
+}

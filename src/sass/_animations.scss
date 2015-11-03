@@ -1,0 +1,43 @@
+/**!
+ * Animations
+ */
+
+ @mixin fade($direction: null) {
+   animation: fade linear 1 $direction;
+   animation-play-state: running;
+   animation-fill-mode: forwards;
+ }
+
+
+.fade {
+  opacity: 0;
+  &.fade--in {
+
+    &.fade--transitioning {
+      @include fade();
+    }
+  }
+
+  &.fade--out {
+    opacity: 0;
+
+    &.fade--transitioning {
+      @include fade(reverse);
+    }
+  }
+
+  &.rotary__text--active {
+    opacity: 1;
+  }
+}
+
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
