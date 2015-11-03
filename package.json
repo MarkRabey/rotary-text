@@ -1,15 +1,15 @@
 {
-  "name": "rotary",
-  "title": "Rotary",
+  "name": "rotary-text",
+  "title": "Rotary Text",
   "version": "0.1.0",
   "description": "Simple JavaScript for animated text.",
   "main": "Gruntfile.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/RenegadeDigital/rotary"
+    "url": "https://github.com/MarkRabey/rotary-text"
   },
   "bugs": {
-    "url": "https://github.com/RenegadeDigital/rotary/issues"
+    "url": "https://github.com/MarkRabey/rotary-text/issues"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

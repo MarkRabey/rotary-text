@@ -1,7 +1,7 @@
 {
   "name": "rotary-text",
   "version": "0.1.0",
-  "homepage": "https://github.com/RenegadeDigital/rotary",
+  "homepage": "https://github.com/MarkRabey/rotary-text",
   "authors": [
     "Mark Rabey <mark@markrabey.com> (http://markrabey.com)"
   ],
@@ -13,8 +13,8 @@
     "rotation"
   ],
   "main": [
-    "dist/js/rotary.min.js",
-    "dist/css/rotary.min.css"
+    "dist/js/rotary-text.min.js",
+    "dist/css/rotary-text.min.css"
   ],
   "license": "MIT",
   "ignore": [

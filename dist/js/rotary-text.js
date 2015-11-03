@@ -1,5 +1,5 @@
 /**!
- * Rotary v0.1.0
+ * Rotary Text v0.1.0
  * Copyright 2015 Mark Rabey <mark@markrabey.com> (http://markrabey.com)
  * Licensed under the MIT license
  */

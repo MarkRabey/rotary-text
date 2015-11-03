@@ -10,8 +10,6 @@ Rotary.prototype = {
 
     this.opts = {
       displayDuration: (typeof options.displayDuration === 'undefined') ? 1000 : options.displayDuration,
-      fadeInDuration: (typeof options.fadeInDuration === 'undefined') ? 350 : options.fadeInDuration,
-      fadeOutDuration: (typeof options.fadeOutDuration === 'undefined') ? 450 : options.fadeOutDuration,
       animationDuration: (typeof options.animationDuration === 'undefined') ? 450 : options.animationDuration,
       itemSelector: (typeof options.itemSelector === 'undefined') ? '.rotary__text' : options.itemSelector,
       activeItemClass: (typeof options.activeItemClass === 'undefined') ? 'rotary__text--active' : options.activeItemClass,
