@@ -1,5 +1,7 @@
 Off Canvas Menu
 ==============
+
+[![Join the chat at https://gitter.im/MarkRabey/rotary-text](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/MarkRabey/rotary-text?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Gitter chat](https://badges.gitter.im/MarkRabey/rotary-text.png)](https://gitter.im/MarkRabey/rotary-text "Gitter chat")
 
 [![devDependencies](https://david-dm.org/MarkRabey/rotary-text/dev-status.svg)](https://david-dm.org/MarkRabey/rotary-text#info=devDependencies&view=table) [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT) [![Issues](http://img.shields.io/github/issues/MarkRabey/rotary-text.svg)]( https://github.com/MarkRabey/rotary-text/issues )
